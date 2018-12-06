@@ -110,31 +110,6 @@
 							array('Content-Type: text/html; charset=UTF-8')
 						
 						);
-
-
-						//Whether the email is not submit.
-						if ( !$is_submit ) {
-
-
-							//Display the error notification.
-							echo json_encode(
-
-								array(
-								
-									'status' => 'error',
-
-										'title' => _x( 'Wystąpił błąd', 'Form notification' ),
-
-										'content' => _x( 'Spróbuj ponownie.', 'Form notification' )
-								) 
-
-							);
-						
-						
-							exit();
-							
-							
-						}
 						
 						
 					}
