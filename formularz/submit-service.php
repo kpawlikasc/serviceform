@@ -76,7 +76,7 @@
 							
 								$notification_email,
 								
-								'Zapytanie serwisowe - ascpro.pl',
+								'Zapytanie serwisowe - asc-pro.pl',
 								
 								$content,
 								
