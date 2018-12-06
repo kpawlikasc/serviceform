@@ -140,22 +140,7 @@
                         array ( 
                             'status' => 'error',
                             'title' => _x( 'Wypełnij pole obowiązkowe', 'Form notification' ),
-                            'content' => _x( '<strong>Adres</strong>.', 'Form notification' )
-                        )
-                        
-                    );
-                    
-                    
-                }
-                } else {
-
-
-                    echo json_encode ( 
-                    
-                        array ( 
-                            'status' => 'error',
-                            'title' => _x( 'Wypełnij pole obowiązkowe', 'Form notification' ),
-                            'content' => _x( '<strong>Numer telefonu</strong>.', 'Form notification' )
+                            'content' => _x( '<strong>Opis usterki</strong>.', 'Form notification' )
                         )
                         
                     );
@@ -177,6 +162,21 @@
                     
                     
                 }
+                } else {
+
+
+                    echo json_encode ( 
+                    
+                        array ( 
+                            'status' => 'error',
+                            'title' => _x( 'Wypełnij pole obowiązkowe', 'Form notification' ),
+                            'content' => _x( '<strong>Numer telefonu</strong>.', 'Form notification' )
+                        )
+                        
+                    );
+                    
+                    
+                }
 				} else {
 
 
@@ -185,7 +185,7 @@
 						array ( 
 							'status' => 'error',
 							'title' => _x( 'Wypełnij pole obowiązkowe', 'Form notification' ),
-							'content' => _x( '<strong>Opis usterki</strong>.', 'Form notification' )
+							'content' => _x( '<strong>E-mail</strong>.', 'Form notification' )
 						)
 						
 					);
@@ -202,7 +202,7 @@
 					array (
 						'status' => 'error',
 						'title' => _x( 'Wypełnij pole obowiązkowe', 'Form notification' ),
-						'content' => _x( '<strong>Adres e-mail</strong>.', 'Form notification' )
+						'content' => _x( '<strong>Adres</strong>.', 'Form notification' )
 					)
 					
 				);
